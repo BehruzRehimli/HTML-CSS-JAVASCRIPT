@@ -1,0 +1,22 @@
+#image{
+    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+    width: 1630px;height: 940px;
+    background-repeat: no-repeat;background-size:cover ;
+}
+#text {
+  
+    font-size:xx-large;
+    font-style:inherit;
+    text-align: center;
+    margin-top: 50%;
+}
+#txt{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    font-size: 45px;
+
+    
+}
