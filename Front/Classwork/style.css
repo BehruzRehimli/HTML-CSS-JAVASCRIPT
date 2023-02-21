@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    padding-top: 1rem;
+}
+#firsttext{
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+h2{
+    margin-top: 1rem;
+    text-decoration: line-through;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+#secondtext{
+    color: #ffaa00b3;
+    text-decoration: underline;
+    text-align: right;
+    padding-top: 1rem;
+}
+h3{
+    color: red;
+    letter-spacing: 5px;
+    padding-top: 1rem;
+    font-family:sans-serif;
+
+}
+#thirdtext{
+    text-align: center;
+    padding-top: 1.5rem;
+}
