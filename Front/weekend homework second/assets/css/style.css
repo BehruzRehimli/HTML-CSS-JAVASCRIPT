@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: grey;
+    margin-left: 1.3rem;
+    font-size: 1.2rem;
+}
+header a p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+header ul{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+#button{
+    margin-left: 2rem;
+    background-color: #1661da;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+#sing-up{
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #6900c7;
+}
+#container{
+    background-image: url(../images/pattern-shapes.png);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#container:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: white;
+    clip-path: polygon(100% 0%,-200% 100%,100% 100%);
+}
+#left-container{
+    width: 45%;
+    height: 50vh;
+    padding-left: 10rem;
+    padding-right: 1rem;
+    padding-top: 10rem;
+    color: white;
+}
+#left-container h1{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+#like-button{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #cbc3fc;
+    font-size: 0.8rem;
+    padding: 3px 5px 5px 10px;
+    color: #3e0470;
+}
+#right-container{
+    width: 55%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+#bottom-text{
+    font-size: 1.3rem;
+    color: #b18bd3;
+} 
+form{
+    width: 75%;
+    background-color: white;
+    height: 65%;
+    border-radius: 10px;
+}
+form p{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    color:#2e70db;
+    padding: 25px 18px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #f8f8f9;
+    font-weight: 500;
+}  
+#input-fullname{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#first,#last{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: #2d2b2b3d;
+    border-width: 1px;
+    margin: 5px 0px;
+}
+#right-container form label{
+    color:#2d2b2baa;
+}
+input[type=email],#company{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: #2d2b2b3d;
+    border-width: 1px;
+}
+.last-parts{
+    padding: 10px 30px;
+}
+form>button{
+    width: 92%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 28px;
+    background-color: #1661da;
+    color: white;
+    font-size: 1rem;
+}
+img{
+    width: 100%;
+    height: 12rem;
+    position: absolute;
+}
+#section-cards{
+    width: 100%;
+    height: 130vh;
+    background-color: #f2f6fc;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#section-cards::after{
+    content: '';
+    position: absolute;
+    top: 111vh;
+    right: 0;
+    width: 100%;
+    height: 150px;
+    background: white;
+    clip-path: polygon(100% 0,0% 0%,0% 50%);
+}
+#section-cards:before{
+    content: '';
+    position: absolute;
+    top:203vh;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: white;
+    clip-path: polygon(100% 0%,0 100%,100% 100%);
+}
+#center{
+    width: 80%;
+    height: 70%;
+    
+}
+h2{
+    font-weight: 400;
+}
+#center>p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color:#2d2b2baa;
+}
+#cards{
+    width: 100%;
+    height: 82%;
+    margin-top: 2.5rem;
+
+}
+#center>#like-button-second{
+    display: inline-block;
+    border-radius: 30px;
+    background-color:#e4ddf7;
+    font-size: 0.8rem;
+    padding: 3px 12px 5px 12px;
+    color:#6900c7;
+    margin-bottom: 12px;
+}
+
+
