@@ -133,7 +133,7 @@ form{
 ::placeholder{
     font-size: 1.3rem;
 }
-#between-header-main button{
+#main-button{
     height: 40%;
     width: 20%;
     border-radius: 20px;
@@ -184,7 +184,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
-    padding: 35px 10px 12px 22px;
+    padding: 35px 10px 12px 37px;
 }
 h4{
     font-size: 22px;
@@ -226,4 +226,65 @@ h4{
     margin-top: 12%;
 }
 /* End Cards Section */
-
+#top-footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #3a3054;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+footer #main-button{
+    border-radius: 100px;
+    width: 10%;
+    height: 3rem;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#bottom-footer{
+    width: 100%;
+    height: 35vh;
+    background-color: #232127;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+#bottom-left-footer{
+    width: 30%;
+}
+.nav-footer{
+    width: 13%;
+}
+#bottom-right-footer{
+    width: 15%;
+}
+footer h2{
+    font-size:xx-large;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+.nav-footer>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.nav-footer>a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #BFBFBF;
+    display: block;
+    margin-top: 15px;
+}
+footer img{
+    width: 100%;
+    cursor: pointer;
+}
+.nav-footer>a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #2bd0d0;
+}
