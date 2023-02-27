@@ -64,7 +64,7 @@ header{
 }
 /* Start Login Div */
 #left-container{
-    width: 45%;
+    width: 50%;
     height: 50vh;
     padding-left: 10rem;
     padding-right: 1rem;
@@ -87,7 +87,7 @@ header{
     color: #3e0470;
 }
 #right-container{
-    width: 55%;
+    width: 50%;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -144,7 +144,7 @@ input[type=email],#company{
     padding: 10px 30px;
 }
 form>button{
-    width: 92%;
+    width: 89%;
     padding: 14px;
     border: none;
     border-radius: 10px;
@@ -350,7 +350,6 @@ footer{
     font-size: 0.95rem;
     color: #a7aeb8;
     margin: 10px;
-
 }
 /* End Footer */
 
