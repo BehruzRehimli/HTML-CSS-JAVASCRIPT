@@ -27,7 +27,7 @@ img{
     margin-top: 10px;
     color: rgb(191, 191, 191);
 }
-.card p,.card h3,.card a{
+.card p,.card h3{
     margin:10px 20px;
 }
 h3{
@@ -45,8 +45,10 @@ h3{
     cursor: pointer;
     display: inline-block;
     margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
-svg{
+.like,.comment,.heart{
     width: 25px;
     height: 25px;
     padding: 10px;
@@ -68,4 +70,39 @@ svg{
 }
 h1{
     text-align: center;
+}
+.like:hover,.comment:hover,.heart:hover{
+    top:5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: #0ab4b4;
+    fill: white;
+}
+svg:hover path{
+    color: white;
+}
+.like:hover{
+    top:65px;
+    color: white;
+}
+.comment:hover{
+    top:125px;
+}
+.card div{
+    display: inline-block;
+}
+div>a{
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+}
+.bottom{
+    width: 20px;
+    height: 20px;
+    fill:rgb(87, 87, 87) ;
+}
+.bottom:hover{
+    width: 30px;
+    height: 30px;
 }
