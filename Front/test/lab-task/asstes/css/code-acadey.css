@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@font-face {
+    font-family: 'Visby Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Regular'), url('../fonts/new-visby/VisbyRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Bold Italic'), url('../fonts/new-visby/VisbyBold\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Bold'), url('../fonts/new-visby/VisbyBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Extrabold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Extrabold Italic'), url('../fonts/new-visby/VisbyExtrabold\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Extrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Extrabold'), url('../fonts/new-visby/VisbyExtrabold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Heavy Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Heavy Italic'), url('../fonts/new-visby/VisbyHeavy\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Heavy'), url('../fonts/VisbyHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Italic'), url('../fonts/new-visby/VisbyItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Light Italic'), url('../fonts/new-visby/VisbyLight\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Light'), url('../fonts/new-visby/VisbyLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Medium Italic'), url('../fonts/new-visby/VisbyMedium\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Medium'), url('../fonts/VisbyMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Semibold Italic'), url('../fonts/new-visby/VisbySemibold\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Semibold'), url('../fonts/new-visby/VisbySemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Thin Italic'), url('../fonts/new-visby/VisbyThin\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Thin'), url('../fonts/new-visby/VisbyThin.woff') format('woff');
+    }
+    header svg {
+    width: 15px;
+    height: 15px;
+}
+
+header nav a {
+    margin: 0rem 0.8rem;
+    text-decoration: none;
+}
+
+#top-header>a {
+    text-decoration: none;
+
+}
+
+#top-header>a>svg {
+    fill: rgb(67, 67, 67);
+    width: 20px;
+    height: 20px;
+}
+
+#icons a:hover>svg{
+    transform: translateY(10px);
+}
+
+#top-header>button {
+    background-color: #f9dd00;
+    padding: 20px 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-header nav {
+    margin-left: 3rem;
+}
+
+#bottom-header {
+    background-image: url("https://code.edu.az/wp-content/uploads/2022/04/Design_Web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+li>a {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+}
+
+#first-head {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#first-head img {
+    margin-left: 3%;
+}
+
+#first-head nav {
+    margin-left: 20%;
+}
+
+#first-head nav ul li:hover {
+    border-bottom: 2px solid gray;
+}
+
+#cards {
+    display: flex;
+}
+
+
+header p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    display: inline-block;
+    color:#4a4a4a;
+}
+
+header {
+    margin: 0rem 3rem;
+}
+
+#container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 0.7;
+    letter-spacing: -1.2px;
+    color: #4a4a4a;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -.1px;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+}
+
+#left-container p {
+    font-weight: 400;
+    font-size: 1rem;
+    padding-right: 7rem;
+    color: #666666;
+    margin: 2rem 4rem 0 0;
+}
+
+#right-container {
+    width: 50%;
+    padding-top: 7%;
+}
+
+#left-container {
+    width: 50%;
+    padding: 5rem 0;
+}
+
+#right-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    border: 1px solid #ababab;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card h3 {
+    font-family: bold;
+    color: #3d3d3d;
+}
+
+.card:first-child:hover {
+    background-color: #b500ed;
+}
+
+.card:hover .card-title,svg {
+    color: #fff
+}
+
+.card:hover svg path{
+    stroke: white;
+    position: relative;
+
+}
+
+.card:nth-child(2):hover {
+    background-color: orange;
+}
+
+.card:nth-child(3):hover {
+    background-color: green;
+}
+
+.card:last-child:hover {
+    background-color: blue;
+}
+#about h1{
+    margin-bottom: 3rem;
+}
+#about p{
+    font-weight: 400;
+    color: #777777;
+    margin: 2rem 0;
+    font-size: 1.08rem;
+}
+#about{
+    margin: 15rem 0 10rem 0;
+    display: flex;
+}
+.left-con{
+    width: 50%;
+}
+
+.right-con{
+    width: 50%;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.left-con>div,.right-con>div{
+    display: flex;
+}
+.left-con>div img,.right-con>div img{
+    width: 40%;
+    margin-right: 3rem;
+    
+}
+.bot-card a:first-child{
+    font-family: bold;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:#4a4a4a ;
+}
+.bot-card a:last-child{
+    font-family: bold;
+    color:#4a4a4a;
+    text-decoration: none;
+    font-weight: 800;
+}
+.bot-card p{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.bot-card{
+    margin-top: 5rem;
+}
+#bck-image{
+    background-image: url("https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 6% 6% 3% 6%;
+    text-align: center;
+}
+#bck-image::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+#bck-image>h2{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.left-con h2{
+    margin-bottom: 0px;
+}
+#bck-image>div{
+    display: flex;
+    margin-top: 3rem;
+    position: relative;
+    justify-content: center;
+}
+#bck-image>div>div{
+    width: 20%;
+}
+#bck-image>div>div>h1{
+    font-weight: 900;
+    font-size: 5rem;
+    color: #f4f5f8;
+}
+#bck-image>div>div>h3{
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-top: 1rem ;
+    color: #f4f5f8;
+}
+#comment{
+    text-align: center;
+    padding: 5rem;
+}
+#comment h1:first-child{
+    display: inline;
+    font-weight: 200;
+}
+#comment h1:nth-child(2){
+    display: inline-block;
+    margin-left: 1rem;
+}
+#comment p{
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: 400;
+    color:#777777;
+}
+#comment div{
+    margin-top: 1.5rem;
+}
+#comment img{
+    width: 25%;
+}
+#portniors{
+    text-align: center;
+
+}
+#portniors>h2{
+    margin-bottom: -12px;
+}
+#portniors>h1{
+    margin-bottom: 3rem;
+}
+#portniors>p{
+    color: #777777;
+    font-size: 0.9rem;
+}
+#portniors>div img{
+    width: 100px;
+    height: 30px;
+    margin: 2rem;
+    
+}
+#portniors>div{
+    margin-top: 2rem;
+}
+#yellow-line{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: #FFCD05;
+    margin-top: -20px;
+}
+#contain{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 7rem;
+    max-width: 1440px;
+}
+#contain>h1{
+    margin-top: 7rem;
+    margin-bottom: -10px;
+}
+#contain>h2{
+    margin-bottom: 10px;
+}
+#contain>img{
+    width: 100%;
+    margin-top: 1rem;
+}
+#connect{
+    display: flex;
+    background-color: #f4f5f8;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+#connect .left-con{
+    width: 40%;
+}
+#connect .left-con>h2{
+    margin-left: 8rem;
+}
+#connect .left-con>h1{
+    margin: 0 8rem 2rem 12rem;
+}
+#connect .left-con>p{
+    padding: 0 5.5rem 0 12rem;
+    color: #777777;
+}
+input,select{
+    padding: 7px 20px;
+    font-size: 18px;
+    min-height: 59px;
+    border: none;
+    color: #373a3c;
+    vertical-align: middle;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#number{
+    width: 49.7%;
+}
+#rotation{
+    width: 63%;
+}
+#connect form button {
+    border: none;
+    background-color: #fcba00;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 3rem;
+    width: 63%;
+    cursor: pointer;
+}
+
+
+

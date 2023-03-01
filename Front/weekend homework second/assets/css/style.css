@@ -352,5 +352,13 @@ footer{
     margin: 10px;
 }
 /* End Footer */
+svg{
+    width: 10px;
+    height: 10px;
+    fill:#2d2b2b85;
+}
+div>a>svg{
+    fill: white;
+}
 
 

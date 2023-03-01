@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lab-task/asstes/css/code-acadey.css">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyBold.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyExtrabold.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyHeavy.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyLight.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyMedium.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyRegular.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbySemibold.woff">
+    <link rel="stylesheet" href="./lab-task/asstes/fonts/VisbyThin.woff">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="top-header">
+            <p>
+                Nizami küçəsi 203B, AF Business House, 2-ci mərtəbə (+994 12) 310 0113
+            </p>
+            <nav id="icons">
+                <a id="facebook" href="https://www.facebook.com/code.edu.az/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                    </svg>
+                </a>
+                <a id="instagram" href="https://www.instagram.com/code.edu.az/?hl=en" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+                <a id="linkedin" href="https://az.linkedin.com/school/code.edu.az/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                    </svg>
+                </a>
+                <a id="youtube" href="https://www.youtube.com/c/codecademy" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                        <path
+                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+                    </svg>
+                </a>
+            </nav>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                    <path
+                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                </svg>
+            </a>
+            <button>
+                Müraciət et
+            </button>
+        </div>
+        <div id="bottom-header">
+            <div id="first-head">
+                <img src="https://code.edu.az/wp-content/uploads/2021/09/logo-white.svg" alt="Logo">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Akademiya</a>
+                        </li>
+                        <li>
+                            <a href="">Tədris sahələri</a>
+                        </li>
+                        <li>
+                            <a href="">Korporativ</a>
+                        </li>
+                        <li>
+                            <a href="">Əlaqə</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div id="container">
+            <section id="cards">
+                <div id="left-container">
+                    <h1>tədris</h1>
+                    <h2>sahələri</h2>
+                    <img src="https://code.edu.az/wp-content/uploads/2021/07/sep-line.png" alt="line">
+                    <p>İnformasiya Texnologiyaları sahəsində bugünün və gələcəyin ən tələb edilən istiqamətləri
+                    </p>
+                </div>
+                <div id="right-container">
+                    <div class="card">
+                        <svg class="svg-animation show-on-scroll-item is-visible" xmlns="http://www.w3.org/2000/svg"
+                            width="76" height="69" viewBox="0 0 76 69"
+                            style="transition-delay: 0s; animation-delay: 0s;">
+                            <defs>
+                                <linearGradient id="a" x1="49.992%" x2="49.992%" y1="-2.24%" y2="102.209%">
+                                    <stop offset="0%" stop-color="#FDBE10"></stop>
+                                    <stop offset="15.65%" stop-color="#F2671E"></stop>
+                                    <stop offset="22.75%" stop-color="#ED4523"></stop>
+                                    <stop offset="29.88%" stop-color="#CC3D43"></stop>
+                                    <stop offset="40.04%" stop-color="#A3336B"></stop>
+                                    <stop offset="48.06%" stop-color="#892C84"></stop>
+                                    <stop offset="52.88%" stop-color="#802A8D"></stop>
+                                    <stop offset="79.47%" stop-color="#2483C5"></stop>
+                                    <stop offset="100%" stop-color="#00AC4C"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd" stroke-width="1.3">
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M56.63 58.17H4.38C2.51 58.17 1 56.65 1 54.78V4.39C1 2.52 2.51 1 4.38 1h61.95c1.87 0 3.38 1.52 3.38 3.39v28.06">
+                                </path>
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M56.63 52.36H7.09c-.18 0-.33-.15-.33-.34V7.15c0-.18.15-.33.33-.33h56.53c.18 0 .33.15.33.33v25.3">
+                                </path>
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M72.02 66.88H59.54c-1.61 0-2.91-1.3-2.91-2.91v-28.6c0-1.61 1.3-2.91 2.91-2.91h12.48c1.61 0 2.91 1.3 2.91 2.91v28.6c0 1.6-1.3 2.91-2.91 2.91z">
+                                </path>
+                                <path fill="#FFF" fill-rule="nonzero" stroke="#000" stroke-linecap="round"
+                                    d="M56.82 36.81h17.92"></path>
+                                <path stroke="#000" stroke-linecap="round" d="M56.82 61.84h17.92"></path>
+                                <g stroke="#000">
+                                    <path stroke-linecap="round"
+                                        d="M70.8 53.56H60.76c-.12 0-.22-.1-.22-.22v-7.35c0-.12.1-.22.22-.22H70.8c.12 0 .22.1.22.22v7.35c0 .12-.1.22-.22.22z">
+                                    </path>
+                                    <path stroke-linejoin="round" d="M60.79 45.95l4.99 3.72 4.96-3.72"></path>
+                                </g>
+                                <g stroke="#000">
+                                    <path d="M26.48 58.82v8.98"></path>
+                                    <path stroke-linecap="round" d="M50.43 68.12H20.27"></path>
+                                    <path d="M44.1 58.82v8.98"></path>
+                                </g>
+                                <path stroke="url(#a)"
+                                    d="M17.9 31.74v-8.89c0-.4.33-.73.74-.73h9.76l17.02-8.07c.14-.06.3.03.3.18v26.54c0 .15-.16.25-.3.18L28.01 32.5l-9.37-.04c-.41 0-.74-.32-.74-.72zm10.49-9.53v10.38m-6.6-.11v10.5c0 .09.08.17.17.17h4.41c.09 0 .17-.08.17-.17v-10.5m19.43 0c5.05-.66 4.84-5.08 4.84-5.08.01-4.19-4.66-4.76-4.66-4.76"
+                                    transform="translate(1 1)"></path>
+                            </g>
+                        </svg>
+                        <h3 class="card-title">Digital Marketing</h3>
+                    </div>
+                    <div class="card">
+                        <svg class="svg-animation show-on-scroll-item is-visible" xmlns="http://www.w3.org/2000/svg"
+                            width="76" height="72" viewBox="0 0 76 72"
+                            style="transition-delay: 1.2s; animation-delay: 2s;">
+                            <defs>
+                                <linearGradient id="a" x1="87.329%" x2="5.065%" y1="44.978%" y2="71.868%">
+                                    <stop offset="0%" stop-color="#FDBE10"></stop>
+                                    <stop offset="15.65%" stop-color="#F2671E"></stop>
+                                    <stop offset="22.75%" stop-color="#ED4523"></stop>
+                                    <stop offset="29.88%" stop-color="#CC3D43"></stop>
+                                    <stop offset="40.04%" stop-color="#A3336B"></stop>
+                                    <stop offset="48.06%" stop-color="#892C84"></stop>
+                                    <stop offset="52.88%" stop-color="#802A8D"></stop>
+                                    <stop offset="79.47%" stop-color="#2483C5"></stop>
+                                    <stop offset="100%" stop-color="#00AC4C"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-width="1.3"
+                                transform="translate(1 1)">
+                                <path stroke="#000"
+                                    d="M19.81 70.01v-4.37c0-.19.16-.35.35-.35h33.89c.19 0 .35.16.35.35v4.37M23.85 64.57v-4.92c0-.22.12-.4.27-.4h26.3c.15 0 .27.18.27.4v4.92M27.12 59.2s.31-11.38-8.34-17.88a.483.483 0 0 1-.14-.62L37.25 6.64">
+                                </path>
+                                <path stroke="#000"
+                                    d="M47.24 59.25s-.31-11.38 8.34-17.88c.19-.14.26-.41.14-.62L37.11 6.69M40.36 3.43h27.52M6.62 3.43H33.85M37.1 6.52v23.3">
+                                </path>
+                                <path stroke="url(#a)"
+                                    d="M40.17 6.52h-6.12a.2.2 0 0 1-.2-.2V.2c0-.11.09-.2.2-.2h6.12c.11 0 .2.09.2.2v6.12a.2.2 0 0 1-.2.2zM74.2 41.81v-6.12a.2.2 0 0 0-.2-.2h-6.12a.2.2 0 0 0-.2.2v6.12c0 .11.09.2.2.2H74a.2.2 0 0 0 .2-.2zm-67.68 0v-6.12a.2.2 0 0 0-.2-.2H.2a.2.2 0 0 0-.2.2v6.12c0 .11.09.2.2.2h6.12a.2.2 0 0 0 .2-.2zM33.85 3.4c-.11 0-.22.01-.33.03C16.37 5 3 17.87 3 35.49m68.19 0C71.19 17.87 57.82 5 40.67 3.43c-.1-.02-.21-.03-.31-.03">
+                                </path>
+                                <circle cx="3.41" cy="3.43" r="3.21" stroke="#000"></circle>
+                                <circle cx="71.09" cy="3.43" r="3.21" stroke="#000"></circle>
+                                <circle cx="37.25" cy="33.04" r="3.21" stroke="#000"></circle>
+                            </g>
+                        </svg>
+                        <h3 class="card-title">Dizayn</h3>
+                    </div>
+                    <div class="card">
+                        <svg class="svg-animation show-on-scroll-item is-visible" xmlns="http://www.w3.org/2000/svg"
+                            width="82" height="69" viewBox="0 0 82 69"
+                            style="transition-delay: 1.5s; animation-delay: 2.5s;">
+                            <defs>
+                                <linearGradient id="a" x1="101.39%" x2="-3.518%" y1="16.664%" y2="82.438%">
+                                    <stop offset="0%" stop-color="#FDBE10"></stop>
+                                    <stop offset="15.65%" stop-color="#F2671E"></stop>
+                                    <stop offset="22.75%" stop-color="#ED4523"></stop>
+                                    <stop offset="29.88%" stop-color="#CC3D43"></stop>
+                                    <stop offset="40.04%" stop-color="#A3336B"></stop>
+                                    <stop offset="48.06%" stop-color="#892C84"></stop>
+                                    <stop offset="52.88%" stop-color="#802A8D"></stop>
+                                    <stop offset="79.47%" stop-color="#2483C5"></stop>
+                                    <stop offset="100%" stop-color="#00AC4C"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd" stroke-width="1.3">
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M41.08 49.52H4.38C2.51 49.52 1 48 1 46.13V4.39C1 2.52 2.51 1 4.38 1h53.45c1.87 0 3.38 1.52 3.38 3.39v20.04M61.21 39.97v-3.15M56.16 39.97v-3.15">
+                                </path>
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M41.08 44.58H6.38c-.18 0-.33-.15-.33-.33V6.27c0-.19.15-.33.33-.33h49.45c.18 0 .33.14.33.33v18.16">
+                                </path>
+                                <g stroke="#000">
+                                    <path d="M23.51 50.19v7.79"></path>
+                                    <path stroke-linecap="round" d="M18.21 58.25H41.08"></path>
+                                    <path d="M38.58 50.19v7.79"></path>
+                                </g>
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M80.2 36.82H42.21c-.63 0-1.13-.51-1.13-1.13V25.56c0-.63.51-1.13 1.13-1.13H80.2c.63 0 1.13.51 1.13 1.13v10.13c0 .62-.5 1.13-1.13 1.13zM80.2 52.36H42.21c-.63 0-1.13-.51-1.13-1.13V41.1c0-.63.51-1.13 1.13-1.13H80.2c.63 0 1.13.51 1.13 1.13v10.13c0 .62-.5 1.13-1.13 1.13zM80.2 67.9H42.21c-.63 0-1.13-.51-1.13-1.13V56.64c0-.63.51-1.13 1.13-1.13H80.2c.63 0 1.13.51 1.13 1.13v10.13c0 .63-.5 1.13-1.13 1.13z">
+                                </path>
+                                <path stroke="url(#a)" stroke-linecap="round"
+                                    d="M55.21 31.39H44.47a.2.2 0 0 1-.2-.2v-3.05c0-.11.09-.2.2-.2h10.74c.11 0 .2.09.2.2v3.05a.2.2 0 0 1-.2.2zm13.98-3.53a1.641 1.641 0 0 0 0 3.28 1.641 1.641 0 0 0 0-3.28zm5.32-.01a1.641 1.641 0 0 0 0 3.28 1.641 1.641 0 0 0 0-3.28zm-10.64 0a1.641 1.641 0 0 0 0 3.28 1.641 1.641 0 0 0 0-3.28zm-8.66 19.08H44.47a.2.2 0 0 1-.2-.2v-3.05c0-.11.09-.2.2-.2h10.74c.11 0 .2.09.2.2v3.05a.2.2 0 0 1-.2.2zm13.98-3.53a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64zm5.32 0a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64zm-10.64 0a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64zm-8.66 19.07H44.47a.2.2 0 0 1-.2-.2v-3.05c0-.11.09-.2.2-.2h10.74c.11 0 .2.09.2.2v3.05c0 .12-.09.2-.2.2zm13.98-3.53a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64zm5.32 0a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64zm-10.64 0a1.641 1.641 0 0 0 0 3.28c.9 0 1.64-.73 1.64-1.64-.01-.91-.74-1.64-1.64-1.64z"
+                                    transform="translate(1 1)"></path>
+                            </g>
+                        </svg>
+                        <h3 class="card-title">IT və Kiber Təhlükəsizlik</h3>
+                    </div>
+                    <div class="card">
+                        <svg class="svg-animation show-on-scroll-item is-visible" xmlns="http://www.w3.org/2000/svg"
+                            width="73" height="68" viewBox="0 0 73 68"
+                            style="transition-delay: 0.9s; animation-delay: 1.5s;">
+                            <defs>
+                                <linearGradient id="a" x1="79.946%" x2="9.628%" y1="34.927%" y2="62.491%">
+                                    <stop offset="0%" stop-color="#FDBE10"></stop>
+                                    <stop offset="15.65%" stop-color="#F2671E"></stop>
+                                    <stop offset="22.75%" stop-color="#ED4523"></stop>
+                                    <stop offset="29.88%" stop-color="#CC3D43"></stop>
+                                    <stop offset="40.04%" stop-color="#A3336B"></stop>
+                                    <stop offset="48.06%" stop-color="#892C84"></stop>
+                                    <stop offset="52.88%" stop-color="#802A8D"></stop>
+                                    <stop offset="79.47%" stop-color="#2483C5"></stop>
+                                    <stop offset="100%" stop-color="#00AC4C"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd" stroke-width="1.3">
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M68.04 56.98H4.38C2.51 56.98 1 55.47 1 53.6V4.38C1 2.51 2.51 1 4.38 1h63.66c1.87 0 3.38 1.51 3.38 3.38V53.6a3.37 3.37 0 0 1-3.38 3.38z">
+                                </path>
+                                <path stroke="#000" stroke-linecap="round"
+                                    d="M65.19 51.29H7.24c-.18 0-.33-.15-.33-.33V7.02c0-.18.15-.33.33-.33h57.95c.18 0 .33.15.33.33v43.94c0 .18-.15.33-.33.33z">
+                                </path>
+                                <g stroke="#000">
+                                    <path d="M27.37 57.63v8.99"></path>
+                                    <path stroke-linecap="round" d="M51.32 66.93H21.16"></path>
+                                    <path d="M44.98 57.63v8.99"></path>
+                                </g>
+                                <path stroke="url(#a)" stroke-linecap="round"
+                                    d="M12.92 13.34h5.7m-5.74 4.71h5.7m-5.64 4.73h5.7m3.99-9.45h5.7m-5.74 4.7h5.7m4.1-4.7h5.7m-5.74 4.7h5.7m4.07 0h5.7m-25.17 4.74h5.7m14.36 19.88l4.92-10.9m3.08 10.43l6.84-4.87m-6.86-4.92l6.85 4.85m-17.95 4.91l-6.84-4.87m6.86-4.92l-6.85 4.85M12.9 27.48h5.7"
+                                    transform="translate(1 1)"></path>
+                            </g>
+                        </svg>
+                        <h3 class="card-title">Proqramlaşdırma</h3>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="left-con">
+                    <h2>niyə</h2>
+                    <h1>code academy?</h1>
+                    <img src="https://code.edu.az/wp-content/uploads/2021/07/sep-line.png" alt="line">
+                    <p class="content">Biz dərsləri Zəmanətli Təhsil Sistemi ilə Beynəlxalq Sertifikasiya imtahanlarının
+                        kurrikulumu əsasında keçirik. Talant Mərkəzi, Mentor Sistemi kimi özəlliklər və müasir tədris
+                        metodları ilə onlara praktiki məşğələlər təklif edirik.
+                    </p><br>
+                    <div class="bot-card">
+                        <img src="	https://code.edu.az/wp-content/uploads/2021/08/layihe-teqdimatlari-300x300.jpg"
+                            alt="">
+                        <div>
+                            <a href="">Buraxılış layihəsi</a>
+
+                            <p>Buraxılış layihəsi “Code Academy”dəki təhsilin yekun layihəsi hesab olunur və çox önəmli
+                                rol oynayır. Təqdimat təhsil boyunca keçirilən bütün mövzuları özündə cəmləyir.
+                                Buraxılış layihəsi tədrisi</p>
+                            <a href="">Ətraflı</a>
+                        </div>
+                    </div>
+                    <div class="bot-card">
+                        <img src="https://code.edu.az/wp-content/uploads/2021/08/akademik-transkript-300x238.jpeg"
+                            alt="">
+                        <div>
+                            <a href="">Akademik Transkript</a>
+                            <p>Tapşırıqlar, mini layihələr müəllim tərəfindən yoxlanılması sizin bilik və bacarıqlarının
+                                hansı dərəcədə olduğunu və həm tədrs müddətində, həm də məzun olduqdan sonra hansı
+                                sahələri daha</p>
+                            <a href="">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-con">
+                    <div class="bot-card">
+                        <img src="https://code.edu.az/wp-content/uploads/2021/08/praktiki-tedris-metodu-300x300.jpg"
+                            alt="">
+                        <div>
+                            <a href="">Praktiki tədris metodu</a>
+                            <p>Hər hansı bir peşəni yaxşı bacarmaq üçün yalnız öyrənmək kifayət deyil, gərək
+                                öyrəndiklərinizi tətbiq edə bilmə bacarığına da yiyələnib təcrübə toplayasınız. Buna
+                                görə Code Academy-nin</p>
+                            <a href="">Ətraflı</a>
+                        </div>
+                    </div>
+                    <div class="bot-card">
+                        <img src="	https://code.edu.az/wp-content/uploads/2021/08/mentor-sistemi-300x300.jpeg" alt="">
+                        <div>
+                            <a href="">Mentor Sistemi</a>
+                            <p>Mentor Sistemi Code Academy-də tələbələrin təhsildə öyrəndiklərini təkrar etmələrini və
+                                gücləndirmələrini təmin edən xüsusi bir sistemdir.</p>
+                            <a href="">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="bck-image">
+
+            <h2>Code Academy həm arzuladığınız sahəni əlçatan edir,</h2>
+            <h2>həm də gələcək karyera inkişafınız üçün lazımı bilik və bacarıqları formalaşdırır.</h2>
+            <div>
+                <div>
+                    <h1>3000</h1>
+                    <h3>tələbə</h3>
+                </div>
+                <div>
+                    <h1>427</h1>
+                    <h3>karyerasını yaxşılaşdırıb</h3>
+                </div>
+                <div>
+                    <h1>95</h1>
+                    <h3>rəhbər vəzifələrdə işləyir
+                    </h3>
+                </div>
+                <div>
+                    <h1>43</h1>
+                    <h3>vəzifəsi artıb
+                    </h3>
+                </div>
+            </div>
+
+        </section>
+        <section id="comment">
+            <h1>məzunlarımızın</h1>
+            <h1>rəyləri</h1>
+            <div>
+                <p>Code Academy-nin ən güclü tərəflərindən biri təbii ki, müəllim heyətidir.Müvafiq sahələri tədris edən
+                </p>
+                <p>şəxlər hal-hazırda öz sahələrinin mütəxəsisləridir. Xüsusilə tədris müddətində müəllimimiz Şahin
+                    Paşayevin</p>
+                <p>əməyini ayrıca qeyd etmək istəyirəm.</p>
+            </div><br><br>
+            <img src="./lab-task/asstes/images/Screenshot 2023-03-01 233949.png" alt="">
+        </section>
+        <section id="portniors">
+            <h2>akademik</h2>
+            <h1>portnyorlarımız</h1>
+            <p>Qlobal standartlara uyğun tədris imkanları sayəsində tələbələrimizi </p>
+            <p>dünyanın istənilən yerində professionallıqlarını sübut edə biləcək şəkildə </p>
+            <p>hazırlaşdırırıq.</p><br>
+            <img src="https://code.edu.az/wp-content/uploads/2021/07/sep-line.png" alt="line">
+            <div>
+                <a href=""><img src="./lab-task/asstes/images/autodesk-logo-primary-rgb-black-large-scaled.jpg"
+                        alt=""></a>
+                <a href=""><img src="./lab-task/asstes/images/Comptia-logo.svg.png" alt=""></a>
+                <a href=""><img src="./lab-task/asstes/images/logo-full.avif" alt=""></a>
+                <a href=""><img src="./lab-task/asstes/images/github-logo-vector.png" alt=""></a>
+                <a href=""><img src="./lab-task/asstes/images/download.png" alt=""></a>
+                <a href=""><img src="./lab-task/asstes/images/download (1).png" alt=""></a>
+            </div>
+        </section>
+        <section id="our-student">
+            <div id="contain">
+                <h1>bizim</h1>
+                <h2>məzunlarımız</h2>
+                <div id="yellow-line"></div>
+                <img src="./lab-task/asstes/images/Screenshot 2023-03-02 004018.png" alt="">
+            </div>
+        </section>
+        <section id="connect">
+            <div class="left-con">
+                <h2>sualın var?</h2>
+                <h1>gəl görüşək!
+                </h1>
+                <p>Yüz dəfə eşitməkdənsə, bir dəfə görmək yaxşıdır. Bizimlə görüş təyin et, dərslərimiz, müəllimlərimiz
+                    və tədris prosesimizlə şəxsən tanış ol.
+                </p>
+            </div>
+            <div class="right-con">
+                <form action="">
+                    <input type="text" name="name" placeholder="Ad">
+                    <input type="text" name="name" placeholder="Soyad"><br>
+                    <select name="index" id="index" >
+                        <option value="1">010</option>
+                        <option value="2">050</option>
+                        <option value="3">051</option>
+                        <option value="4">055</option>
+                        <option value="5">060</option>
+                        <option value="6">070</option>
+                        <option value="7">077</option>
+                        <option value="8">099</option>
+                    </select>
+                    <input type="number" id="number" placeholder="XXX-XX-XX"><br>
+                    <select name="rotation" id="rotation">
+                        <option value="1">Kiber Təhlükəsizlik</option>
+                        <option value="2">UX/Uİ Dizayn</option>
+                        <option value="3">2D Motion Dizayn</option>
+                        <option value="4">Full Stack Proqramlaşdırma</option>
+                        <option value="5">Qrafik və Veb Dizayn</option>
+                        <option value="6">Digital Marketing Professional-DMİ Pro</option>
+                        <option value="7">Digital Memarlıq və 3D</option>
+                    </select><br>
+                    <button>Müraciət et</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
