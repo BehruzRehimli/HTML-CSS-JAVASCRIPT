@@ -4,132 +4,6 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-@font-face {
-    font-family: 'Visby Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Regular'), url('../fonts/new-visby/VisbyRegular.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Bold Italic'), url('../fonts/new-visby/VisbyBold\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Bold'), url('../fonts/new-visby/VisbyBold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Extrabold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Extrabold Italic'), url('../fonts/new-visby/VisbyExtrabold\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Extrabold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Extrabold'), url('../fonts/new-visby/VisbyExtrabold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Heavy Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Heavy Italic'), url('../fonts/new-visby/VisbyHeavy\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Heavy'), url('../fonts/VisbyHeavy.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Italic'), url('../fonts/new-visby/VisbyItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Light Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Light Italic'), url('../fonts/new-visby/VisbyLight\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Light'), url('../fonts/new-visby/VisbyLight.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Medium Italic'), url('../fonts/new-visby/VisbyMedium\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Medium'), url('../fonts/VisbyMedium.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Semibold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Semibold Italic'), url('../fonts/new-visby/VisbySemibold\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Semibold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Semibold'), url('../fonts/new-visby/VisbySemibold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Thin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Thin Italic'), url('../fonts/new-visby/VisbyThin\ Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Visby Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Visby Thin'), url('../fonts/new-visby/VisbyThin.woff') format('woff');
-    }
     header svg {
     width: 15px;
     height: 15px;
@@ -302,16 +176,11 @@ h2 {
     z-index: 1;
 }
 
-.card:hover .card-title,svg {
-    color: #fff
-}
-
 .card:hover svg path{
     stroke: white;
     position: relative;
 
 }
-
 .card:nth-child(2):hover {
     background-color: orange;
     transform: scale(1.1);
@@ -324,6 +193,9 @@ h2 {
     transform: scale(1.1);
     box-shadow: 0 22px 33px 0 rgb(0 0 0 / 16%);
     z-index: 1;
+}
+.card:hover h3{
+    color: white;
 }
 
 .card:last-child:hover {
@@ -568,7 +440,6 @@ footer{
     z-index: 1;
     position: sticky;
     bottom: 0.25rem;
-
 }
 #bottom>div{
     width: 100%;
@@ -579,8 +450,8 @@ footer{
     margin-left: 5rem;
 }
 #bottom>div>div{
-    width: 25%;
-    padding: 5rem 0rem 3rem 8rem;
+    width: 30%;
+    padding: 5rem 0rem 3rem 0rem;
 }
 #bottom>div>div li>a{
     color: #777777;
@@ -606,7 +477,10 @@ footer{
 #adress p{
     font-weight: 300;
 }
-#outher{
+#bottom #outher{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1440px;
     display: flex;
     justify-content: center;
 }
@@ -617,6 +491,11 @@ footer{
 #outher>div>img{
     width: 10rem;
     height: 1.8rem;
+}
+#bottom #cont{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
