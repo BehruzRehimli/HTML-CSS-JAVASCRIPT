@@ -472,4 +472,52 @@ textarea{
 /* End contact section */
 
 /* Start footer */
-
+footer{
+    background-color: #f2f2f2;
+    margin-top: 3rem;
+    padding: 5rem 0 5rem 0;
+}
+footer .container{
+    display: flex;
+}
+footer img{
+    width: 140px;
+    height: 140px;
+    margin-right: 50px;
+}
+footer ul li a{
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer ul li a:hover{
+    color: #ff2b09;
+}
+footer ul li{
+    margin-bottom: 0.6rem;
+    margin-left: 3rem;
+}
+footer ul{
+    margin-right: 12rem;
+}
+footer input{
+    width: 12rem;
+    min-height: 48px;
+    color: #232323;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 0px, rgb(0 0 0 / 7%) 0px 1px 3px 0px, rgb(0 0 0 / 3%) 0px 0px 0px 1px;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+footer button{
+    min-height: 48px;
+    padding: 0.6rem 1.2rem;
+    color: #000000;
+    border: 2px solid #000000;
+}
+footer button:hover{
+    background-color: #000000;
+    color: white;
+}
