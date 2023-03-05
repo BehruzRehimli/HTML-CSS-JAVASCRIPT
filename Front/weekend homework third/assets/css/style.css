@@ -27,6 +27,9 @@ a{
     margin: 0 auto;
     position: relative;
 }
+
+/* start header  */
+
 #top-head{
     min-height: 70px;
     transition: all 0.3s;
@@ -79,6 +82,9 @@ header ul a{
     font-weight: 500;
     padding: 5px 0;
 }
+/* End navbar  */
+
+/* start bottom header  */
 header{
     background-image: url(../images/background9.jpg);
     background-repeat: no-repeat;
@@ -118,6 +124,13 @@ header #icons a{
 
     height: 80%;
 }
+/* End bottom header */
+
+/* End header */
+
+/* Start main */
+
+/* Start about section */
 .left-con{
     width: 50%;
     position: relative;
@@ -144,8 +157,9 @@ h1{
 .left-con>div{
     margin: 50% 10%;
 }
-.left-con button{
+button{
     display: inline-block;
+    background-color: transparent;
     border-color: #ff2b09;
     color: #000000;
     cursor: pointer;
@@ -162,6 +176,9 @@ h1{
     text-align: center;
     margin: 5rem;
 }
+
+/* Start cards section */
+
 #cards{
     display: flex;
     justify-content: space-between;
@@ -190,6 +207,9 @@ h1{
     font-weight: bold;
     line-height: 1.5;
 }
+
+/* End cards section */
+
 #search{
     display: flex;
 }
@@ -227,19 +247,229 @@ h1{
     padding: 7rem;
     margin-top: 8rem;
 }
-#check a{
+.like-button{
     text-align: center;
     font-weight: 700;
     color: #626262;
     cursor: pointer;
     padding: 0.5rem 0;
 }
-#check a:hover{
+.like-button:hover{
     border-bottom: 2px solid red;
     color: red;
+    margin-bottom: -2px;
 }
 #check>div{
     text-align: center;
     margin-top: -4rem;
 }
+/* End  about section */
+
+/* Start products-info section */
+
+.left-con>img{
+    width: 98%;
+}
+#products-info .container:first-child{
+    display: flex;
+}
+#products-info .left-con{
+    text-align: right;
+}
+#products-info .right-con{
+    padding-left:7rem;
+    flex-direction: column;
+    align-items: start;
+}
+#first .right-con p{
+    margin-bottom: 15px;
+}
+button:hover{
+    background-color: #ff2b09;
+    color: white;
+}
+#products-info div{
+    margin-top: 5rem;
+}
+#second .right-con{
+    background-color: #f2f2f2;
+    align-items: center;
+    padding: 0rem;
+}
+#second .right-con img{
+    width: 33%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+#second .right-con strong{
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    text-align: center;
+}
+#second .right-con a{
+    margin-top: 1.5rem;
+}
+#second .left-con img{
+    height: 100%;
+}
+#third .left-con{
+    text-align: left;
+    padding-right: 5rem;
+    padding-top: 4rem;
+}
+#third .left-con p{
+    margin-bottom: 1rem;
+}
+#third .right-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    padding-left: 1rem;
+}
+#third .right-con div{
+    width: 47%;
+    height: 100%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+#third .right-con div p{
+    margin-bottom: 2rem;
+}
+#third .right-con div:first-child{
+    background-image: url("../images/item1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#third .right-con div:last-child{
+    background-image: url("../images/item2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#third .heading, #contact .heading{
+    text-align: center;
+    margin-top: 10rem ;
+    margin-bottom: 5rem;
+}
+
+#products-info .product-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.pro-card{
+    width: 31.5%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+.pro-card.top.first{
+    background-image: url("../images/item1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pro-card.top.second{
+    background-image: url("../images/item2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pro-card.top.third{
+    background-image: url("../images/item3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#products-info .product-cards .pro-card{
+    margin-top: 2rem;
+}
+#products-info{
+    margin-bottom: 5rem;
+}
+
+/* End Products-info section */
+
+/* Start contact section */
+#logos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+    opacity: 0.7;
+}
+#logos img{
+    width: 120px;
+}
+#contact-us{
+    display: flex;
+}
+#contact-us>div:first-child{
+    padding: 7rem 10rem 3rem 3rem;
+}
+#contact-us>div:last-child{
+    padding: 7rem 0 3rem ;
+    margin-left: 3rem;
+}
+#contact-us>div:last-child{
+    width: 50%;
+}
+input{
+    border-radius: 0%;
+    padding: 25px 30px;
+    background-color: white;
+    border: 2px solid #cdcdcb;
+    min-height: 48px;
+    color: #232323;
+    height: auto;
+    margin-right: -5px;
+    width: 50%;
+}
+textarea{
+    width: 99.7%;
+    border-radius: 0%;
+    padding: 25px 30px;
+    background-color: white;
+    border: 2px solid #cdcdcb;
+    min-height: 48px;
+    color: #232323;
+    height: 7rem;
+    margin-right: -5px;
+    margin-top: -2px;
+}
+#contact-us form button{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+::placeholder{
+    font-size: 1rem;
+}
+#contact-us .different{
+    margin-bottom: 1rem;
+}
+#contact-us a{
+    display: block;
+    color: #000000;
+    font-size: 16.84px;
+}
+#contact-us a:hover{
+    color: #ff2b09;
+}
+#contact-us h2{
+        font-size: 30px;
+}
+
+/* End contact section */
+
+/* Start footer */
 
