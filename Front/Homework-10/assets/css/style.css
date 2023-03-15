@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    letter-spacing: -0.03rem;
+}
+h3{
+    margin: 5rem 0 1.5rem;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.card img{
+    display: block;
+    margin-bottom: 20px;
+    width: 120px;
+}
+.card{
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+    padding: 1.5rem 0;
+    position: relative;
+}
+.card p{
+    color: black;
+    font-size: 14px;
+}
+.card:hover{
+    border-color: green;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card:hover #hover{
+    opacity: 1;
+}
+
+.card .price{
+    font-size: 1rem;
+    color: #001e2b;
+}
+.card .name{
+    font-size: 1rem;
+    color: #001e2b;
+}
+.card .name:hover{
+    color: #088a08;
+}
+#hover svg{
+    fill: black;
+}
+#hover>div{
+    padding:2px 8px 7px 8px;  
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#hover{
+    display: flex;
+    text-align: center;
+    gap: 3px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    opacity: 0;
+    transition: .5s;
+}
+#hover>div:hover{
+    background-color: #0dc40d;
+}
+#hover>div:hover svg{
+    fill: white;
+}
+.left{
+    background-image: url("https://freshcart.codescandy.com/assets/images/banner/banner-deal.jpg");
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 10px;
+
+}
+.left>h3,.left>p{
+    color: white;
+}
+.left>h3{
+    margin-top: 0;
+}
+.left svg{
+    padding-left: 4px;
+    width: 25px;
+    height: 25px;
+}
+.best .card #hover{
+    left: 33%;
+}
+.card button{
+    font-weight: 600;
+}

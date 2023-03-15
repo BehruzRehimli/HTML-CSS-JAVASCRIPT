@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: aqua;
+    overflow-x: hidden;
+}
+
+.opacity {
+    opacity: 1;
+    animation: opacity 5s linear infinite;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+}
+
+.human {
+    width: 10%;
+    height: 40vh;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-image: url(../images/Wallpapers-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    animation: human 40s linear infinite;
+}
+
+@keyframes human {
+    0% {
+        background-image: url(../images/Wallpapers-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+    }
+
+    24% {
+        background-image: url(../images/Wallpapers-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+
+    }
+
+    25% {
+        background-image: url(../images/Russell_s_drawings_and_stuff_-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+
+    }
+
+    49% {
+        background-image: url(../images/Russell_s_drawings_and_stuff_-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+
+    }
+
+    50% {
+        background-image: url(../images/Premium_Vector___Cartoon_senior_elderly_old_man-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+
+    }
+
+    74% {
+        background-image: url(../images/Premium_Vector___Cartoon_senior_elderly_old_man-removebg-preview.png);
+        width: 10%;
+        height: 40vh;
+
+    }
+
+    75% {
+        width: 15%;
+        height: 30vh;
+        background-image: url(../images/grave.png);
+    }
+    99% {
+        width: 15%;
+        height: 30vh;
+        background-image: url(../images/grave.png);
+    }
+}
+
+.green.graund {
+    height: 100vh;
+    filter: brightness(1);
+    animation: graund 5s linear infinite;
+}
+
+@keyframes graund {
+    0% {
+        filter: brightness(1);
+    }
+
+    50% {
+
+        filter: brightness(1);
+    }
+
+    70% {
+        filter: brightness(0.3);
+    }
+
+    90% {
+        filter: brightness(0.3);
+    }
+}
+
+.sun {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    background-color: transparent;
+    animation: sun 5s linear infinite;
+}
+
+@keyframes sun {
+    0% {
+        top: -15%;
+        left: -10%;
+    }
+
+    60% {
+        top: 20%;
+        left: 100%;
+    }
+
+    100% {
+        top: 20%;
+        left: 100%;
+    }
+}
+.house{
+    width: 620px;
+    height: 400px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background-image: url(../images/house2-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    animation: house 40s linear infinite;
+}
+@keyframes house{
+    0% {
+        background-image: url(../images/small_house-removebg-preview.png);
+        width: 620px;
+        height: 400px;
+        bottom: 10%;
+        right: 10%;
+    }
+
+    24% {
+        background-image: url(../images/small_house-removebg-preview.png);
+        width: 620px;
+        height: 400px;
+        bottom: 10%;
+        right: 10%;
+    }
+
+    25% {
+        background-image: url(../images/biger_house-removebg-preview.png);
+        width: 700px;
+        height: 650px;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    49% {
+        background-image: url(../images/biger_house-removebg-preview.png);
+        width: 700px;
+        height: 650px;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    50% {
+        background-image: url(../images/building-removebg-preview.png);
+        width: 1000px;
+        height: 850px;
+        bottom: 5%;
+        right: -15%;
+    }
+
+    73% {
+        background-image: url(../images/building-removebg-preview.png);
+        width: 1000px;
+        height: 850px;
+        bottom: 5%;
+        right: -15%;
+    }
+
+    74% {
+        background-image: url();
+        width: 800px;
+        height: 600px;
+        bottom: 5%;
+        right: 0%;
+    }
+    99% {
+        background-image: url();
+        width: 800px;
+        height: 600px;
+        bottom: 5%;
+        right: 5%;
+    }
+  
+}

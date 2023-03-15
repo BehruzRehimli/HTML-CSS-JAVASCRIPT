@@ -511,6 +511,16 @@ footer input{
     margin-right: 1rem;
     margin-top: 1.5rem;
 }
+input:focus{
+    background-color: white;
+    outline: none;
+}
+textarea{
+        resize: vertical;
+}
+textarea:focus{
+    outline: none;
+}
 footer button{
     min-height: 48px;
     padding: 0.6rem 1.2rem;
