@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308");
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.clip {
+  background-image: url("https://clinika.modeltheme.com/wp-content/uploads/2020/09/Clinika-pattern_top.png?id=21417");
+  background-size: cover;
+  background-color: transparent;
+  height: 24vh;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+}
+
+header nav {
+  background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: inline-block;
+}
+
+#navbarDropdownMenuLink {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dropdown-item:hover {
+  color: rgba(0, 0, 0, 0.927);
+}
+
+.dropdown-item {
+  color: rgb(119, 119, 119);
+  font-weight: 600;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 33px;
+  padding-left: 10px;
+  padding-right: 10px;
+}/*# sourceMappingURL=style.css.map */

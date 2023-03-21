@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+$first-color:#25ae88;
+@mixin buttons($color){
+    padding: 14px 25px;
+    text-align: center;
+    background-color: $color;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 11px;
+}
+.preloder{
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    header{
+        background-color: rgba(0, 0, 0, 0.63);;
+        border-bottom: 2px solid $first-color;
+        height: 17vh;
+
+        .container-xxl{
+            display: flex;
+            align-items: center;
+            position: relative;
+            nav{
+                margin-left: 10rem;
+                a{
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #fff;
+                    position: relative;
+                    padding: 4px 14px;
+                    margin-left: 15px;
+                    font-weight: 500;
+                }
+            }
+            .buttons{
+                position: absolute;
+                right: -12rem;
+                .first{
+                    @include buttons(
+                        #556080);
+
+                    
+                }
+                .second{
+                    @include buttons(#7fabda);
+                }
+                .third{
+                    @include buttons(
+                        #25ae88)
+                }
+            }
+
+        }
+    }
+}
+#anime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 17rem;
+    animation: anime 4s linear infinite;
+    opacity: 1;
+    color: none;
+    @keyframes anime{
+        0%{
+            background-color: none;
+            opacity: 1;
+        }
+        50%{
+            background-color: white ;
+            opacity: 0;
+        }
+    }
+    .first{
+        @include buttons(
+            #556080);
+
+        
+    }
+    h1{
+        color: #fff;
+        font-size: 72px;
+    }
+    P{
+        display: inline-block;
+        background-color: #25ae88;
+        width: 60%;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .second-content{
+        margin-top: -23px;
+    }
+}

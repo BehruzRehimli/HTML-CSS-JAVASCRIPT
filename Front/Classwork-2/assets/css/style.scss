@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+$main-color: #e8ecf1;
+$bg:#e9ecf0;
+$red-text:#f45369;
+@mixin all-button{
+    background: rgb(239, 62, 66);
+    padding: 10px;
+    text-decoration: none;
+    min-width: 100px;
+    border-radius: 8px;
+    transition: .3s;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+    border: none;
+    opacity: 0.85;
+    &:hover{
+        opacity: 1;
+    }
+}
+.search{
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 2px 5px 7px 5px;
+}
+.top-header{
+    padding: 1rem 0;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #2e3131;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+.bottom-header{
+    background-color: #e8ecf1;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    .top-header{
+        align-items: center;
+    }
+    nav{
+        align-items: center;
+    }
+    button{
+        @include all-button();
+    }
+    li{
+        transition: .6s;
+        padding: 0.5rem 0;
+    }
+    margin-bottom: 2px;
+}
+.right{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}
+.left{
+    width: 50%;
+}
+h1{
+    font-size: 34px;
+    font-weight: 400;
+    b{
+        font-weight: 600;
+    }
+}
+h2{
+    color: $red-text;
+    font-size: 28px;
+    font-weight: 600;
+}
+button{
+    margin-top: 20px;
+    @include all-button();
+    padding: 1rem 5rem;
+}
+
+.top-main{
+    background-color: $main-color;
+    position: relative;
+    padding-bottom: 5rem;
+    .left{
+        padding-top: 3rem;
+    }
+
+    .right{
+        padding: 2rem;
+        overflow: hidden;
+        img{
+        transition: .6s;
+        }
+    }
+    .right:hover img{
+        transform: scale(1.1);
+    }
+    .products{
+        background-color: #f9fafb;
+        border-radius: 10px;
+
+    }
+    .box{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1rem;
+        text-align: center;
+        transition: .6s;
+        img{
+            margin-top: 1rem;
+            text-align: center;
+            width: 50px;
+        }
+        svg{
+            fill:rgb(239, 62, 66) ;
+            width: 50px;
+            margin-top: 1rem;
+        }
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+.cards{
+    position: absolute;
+    left: 50%;
+    bottom: -110px;
+    transform: translateX(-50%);
+}
+.content-2{
+    p{
+        font-size: 18px;
+    }
+}
+.birkart{
+    background-color: $bg;
+    padding: 2rem 0;
+    .container-xxl{
+        position: relative;
+    }
+    img{
+        position: absolute;
+        right: 8rem;
+        bottom: 0;
+        width: 350px;
+    }
+    .birkart-left{
+        width: 30%;
+    }
+}
+
+@media (max-width:768px){
+    .cards{
+        .box{
+            display: flex;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+    .top-main{
+        .left{
+            width: 100%;
+        }
+        .right{
+            width: 100%;
+        }
+        .container{
+            flex-wrap: wrap;
+        }
+    }
+    .start{
+        flex-direction: column-reverse;
+        .right{
+            background-color: white;
+        }
+    }
+}
+@media (max-width:992px){
+    .bottom-header{
+        display: none;
+    }
+    .content{
+        text-align: center;
+    }
+    .cards{
+        position: relative;
+        .box{
+            gap:15px;
+        }
+    }
+    .media{
+        display: none;
+    }
+    .birkart{
+        margin-top: 8rem;
+        .container-xxl{
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            padding-top: 13rem;
+            padding-bottom: 6rem;
+            &>div{
+                width: 100%;
+                text-align: center;
+            }
+            img{
+                top: -30%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            button{
+                width: 95%;
+                position: absolute;
+                bottom: 0%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    
+}
+
+

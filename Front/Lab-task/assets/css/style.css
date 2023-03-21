@@ -1,0 +1,105 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.preloder {
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.preloder header {
+  background-color: rgba(0, 0, 0, 0.63);
+  border-bottom: 2px solid #25ae88;
+  height: 17vh;
+}
+.preloder header .container-xxl {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.preloder header .container-xxl nav {
+  margin-left: 10rem;
+}
+.preloder header .container-xxl nav a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  padding: 4px 14px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.preloder header .container-xxl .buttons {
+  position: absolute;
+  right: -12rem;
+}
+.preloder header .container-xxl .buttons .first {
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #556080;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 11px;
+}
+.preloder header .container-xxl .buttons .second {
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #7fabda;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 11px;
+}
+.preloder header .container-xxl .buttons .third {
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #25ae88;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 11px;
+}
+
+#anime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 17rem;
+  animation: anime 4s linear infinite;
+  opacity: 1;
+  color: none;
+}
+@keyframes anime {
+  0% {
+    background-color: none;
+    opacity: 1;
+  }
+  50% {
+    background-color: white;
+    opacity: 0;
+  }
+}
+#anime .first {
+  padding: 14px 25px;
+  text-align: center;
+  background-color: #556080;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 11px;
+}
+#anime h1 {
+  color: #fff;
+  font-size: 72px;
+}
+#anime P {
+  display: inline-block;
+  background-color: #25ae88;
+  width: 60%;
+  text-align: center;
+  margin: 2rem 0;
+}
+#anime .second-content {
+  margin-top: -23px;
+}/*# sourceMappingURL=style.css.map */
