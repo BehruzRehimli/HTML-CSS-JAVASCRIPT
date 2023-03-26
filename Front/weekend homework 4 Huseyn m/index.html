@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Start heading -->
     <header>
         <div class="top-header d-flex justify-content-between align-items-center">
             <div class="logo">
@@ -28,6 +29,7 @@
                 <a href="" class="btn-top">Buy now</a>
             </div>
         </div>
+        <!-- Start Navbar -->
         <div class="bottom-header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -46,17 +48,17 @@
                                 <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Service</a>
+                                <a class="nav-link" href="#services">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Top Deals</a>
+                                <a class="nav-link" href="#popular">Top Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="#gallery">Gallery</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown" href="#package" id="navbarDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Package
                                 </a>
@@ -65,7 +67,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown" href="#blog" id="navbarDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Blog
                                 </a>
@@ -75,12 +77,13 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
+            <!-- End navbar -->
         </div>
         <div class="setting">
             <svg xmlns="http://www.w3.org/2000/svg"
@@ -90,6 +93,9 @@
             </svg>
         </div>
     </header>
+    <!-- End Haeder -->
+
+    <!-- Start Main -->
     <main>
         <section class="bg-img">
             <div class="bg-opacity">
@@ -104,6 +110,7 @@
                 </div>
             </div>
         </section>
+        <!-- Start Tools Section -->
         <section class="tools">
             <div class="container">
                 <div class=" d-flex flex-wrap">
@@ -148,7 +155,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="most-popular my-5 pt-5">
+                <!-- Start Populars Section -->
+                <div class="most-popular my-5 pt-5" id="popular">
                     <div class="top text-center mb-5">
                         <h2>DESTINATIONS</h2>
                         <h3>Travel Most Popular Place
@@ -202,9 +210,12 @@
                             </a>
                         </div>
                     </div>
+                    <!-- End Populars Section -->
 
                 </div>
-                <div class="services">
+                <!-- Start Services Section -->
+
+                <div id="services">
                     <div class="top text-center my-5">
                         <h2>services</h2>
                         <h3>What We Offer For You
@@ -298,8 +309,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="galary">
-                    <div class="top text-center my-5">
+                <!-- End SErvices Section -->
+
+                <!-- Start Gallery Section -->
+                <div class="galary" id="gallery">
+                    <div class="top text-center my-5" >
                         <h2>TOUR GALLERY
                         </h2>
                         <h3>Best Tourist's Shared Photos
@@ -363,7 +377,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="packages">
+                <!-- End Gallary Section -->
+
+                <!-- start package section -->
+
+                <div class="packages" id="package">
                     <div class="top text-center my-5">
                         <h2>POPULAR PACKAGE
                         </h2>
@@ -440,13 +458,15 @@
                                 </div>
                             </div>
                         </div>
-
+                        
                     </div>
                     </div>
                 </div>
             </div>
-
+            <!-- End package Section -->
         </section>
+        <!-- Start Portniors Section -->
+
         <section class="portniors py-5">
             <div class="container d-flex py-4">
                 <div style="width: 187px; border-radius: 5px; margin-right: 30px;">
@@ -481,8 +501,12 @@
                 </div>
             </div>
         </section>
+        
+        <!-- End  Portniors Section -->
+
         <section class="main-end">
             <div class="container">
+                <!-- Start Comments Section -->
                 <div class="comments">
                     <div class="top text-center my-5">
                         <h2>TESTIMONIALS
@@ -548,7 +572,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="last-post">
+
+                <!-- End Comments Section -->
+                
+                <div class="last-post" id="blog">
                     <div class="top text-center my-5">
                         <h2>LATEST NEWS
                         </h2>
@@ -595,7 +622,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact">
+                <!-- Start Contact Section -->
+                <div class="contact" id="contact">
                     <div class="top text-center my-5">
                         <h2>CONTACT US
                         </h2>
@@ -634,9 +662,15 @@
 
                 </div>
             </div>  
+                <!-- End Contact Section -->
 
         </section>
+
     </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+
     <footer>
         <div class="head"></div>
         <div class="polygon pb-4">
@@ -743,6 +777,7 @@
             </div>
         </div>
     </footer>
+    <!-- End Footer -->
 </body>
 
 </html>

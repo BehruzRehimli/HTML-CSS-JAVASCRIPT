@@ -1,3 +1,4 @@
+/* Start reset */
 * {
     margin: 0%;
     padding: 0%;
@@ -12,7 +13,8 @@
 a {
     text-decoration: none;
 }
-
+/* End reset */
+// Start variables and minings
 $header-bg: #262626;
 $main-color: #6168FF;
 
@@ -46,6 +48,10 @@ $main-color: #6168FF;
     color: rgba(0, 0, 0, 0.06);
 }
 
+// End variable and minings
+
+// Start header
+
 .top-header {
     background-color: $header-bg;
     position: fixed;
@@ -76,7 +82,7 @@ $main-color: #6168FF;
 .bottom-header {
     position: fixed;
     z-index: 999999;
-    top: 6%;
+    top: 54px;
     left: 0%;
     right: 0%;
     background-color: white;
@@ -128,7 +134,11 @@ $main-color: #6168FF;
         }
     }
 }
+// End header
 
+// Start Main
+
+// Start Setting Section
 .setting {
     width: 50px;
     height: 50px;
@@ -160,6 +170,7 @@ $main-color: #6168FF;
         }
     }
 }
+// End Setting Section
 
 .bg-img {
     position: relative;
@@ -252,6 +263,7 @@ $main-color: #6168FF;
 
         .img-pad {
             padding-left: 3rem;
+            position: relative;
         }
 
         a {
@@ -313,7 +325,7 @@ $main-color: #6168FF;
         }
     }
 }
-
+// Start populars Section
 .most-popular {
     h3 {
         @include intro();
@@ -335,6 +347,7 @@ $main-color: #6168FF;
         @include blue-text();
     }
 }
+// End populars Section
 
 .top {
     h3 {
@@ -347,7 +360,7 @@ $main-color: #6168FF;
     }
 }
 
-.services {
+#services {
     margin-top: 9rem;
 
     h3::before {
@@ -369,7 +382,7 @@ $main-color: #6168FF;
         }
     }
 }
-
+// Start Gallery Section
 .galary {
     margin-top: 9rem;
 
@@ -443,6 +456,7 @@ $main-color: #6168FF;
 .pic a:hover i {
     color: white;
 }
+// End Gallery SEction
 
 .packages {
     margin-top: 9rem;
@@ -486,7 +500,7 @@ $main-color: #6168FF;
     background-color: #6168FF;
     background-image: url("../images/client-bg.png");
 }
-
+// Start Comments Section
 .comments {
     margin-top: 9rem;
 
@@ -550,6 +564,7 @@ $main-color: #6168FF;
     }
 
 }
+// End Comments Section
 
 .last-post {
     margin-top: 9rem;
@@ -581,7 +596,7 @@ $main-color: #6168FF;
         background-color: #212a42;
     }
 }
-
+// Start Contact Section
 .contact {
     margin-top: 9rem;
     margin-bottom: 3rem;
@@ -619,6 +634,11 @@ $main-color: #6168FF;
     }
 
 }
+// End Contact Section
+
+// End Main
+
+// Start Footer
 
 .head{
     height: 250px;
@@ -680,7 +700,9 @@ $main-color: #6168FF;
         }
     }
 }
+// End Footer
 
+// Start Media Queries
 @media (max-width:992px) {
     .tools {
         .img-pad {
@@ -723,3 +745,4 @@ $main-color: #6168FF;
         display: none;
     }
 }
+// End Media Queries
