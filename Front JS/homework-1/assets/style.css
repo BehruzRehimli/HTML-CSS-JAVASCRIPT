@@ -23,6 +23,8 @@ h1{
     letter-spacing: 5px;
     font-weight: 900;
     margin-bottom: 5rem;
+    font-size: 3rem;
+    color: rgb(67, 67, 67);
 }
 hr{
     margin-top: 5rem;

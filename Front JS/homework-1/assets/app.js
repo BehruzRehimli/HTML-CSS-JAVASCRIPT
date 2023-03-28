@@ -1,5 +1,8 @@
 document.getElementById('btn-1').onclick=function(){
-    document.body.style.display= "none";
+    let question='Sayt görünsünmü?'
+    if(confirm(question)!=true){
+        document.body.style.display='none';
+    }
 }
 document.getElementById('btn-2').onclick=function(){
     var input = Number(document.getElementById('in-2').value)
@@ -18,5 +21,7 @@ document.getElementById('btn-3').onclick = function() {
     else if (input>299 && input<400) {
         document.body.style.backgroundColor="grey";
     }
-};
+}
+
+
 
