@@ -1,0 +1,29 @@
+body>div{
+    text-align: center;
+}
+input{
+    padding: 10px 20px;
+    border-radius:25px ;
+    background-color: azure;
+    font-size: 1.2rem;
+    border: 2px dashed grey;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+h1{
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-bottom: 5rem;
+}
+hr{
+    margin-top: 5rem;
+}
