@@ -1,3 +1,7 @@
+var x=confirm("Sayt görünsünmü?")
+if(x!=true){
+    document.body.style.display='none';
+}
 document.getElementById('btn-1').onclick=function(){
     let question='Sayt görünsünmü?'
     if(confirm(question)!=true){
@@ -14,14 +18,16 @@ document.getElementById('btn-3').onclick = function() {
     var input = Number(document.getElementById("in-3").value.slice(-3))
     if (input>99 && input<200) {
         document.body.style.backgroundColor="yellow";
+        document.getElementById('result').innerHTML="Səhər qrupudur."
     }
     else if (input>199 && input<300) {
         document.body.style.backgroundColor="red";
+        document.getElementById('result').innerHTML="Günorta qrupudur."
     }
     else if (input>299 && input<400) {
         document.body.style.backgroundColor="grey";
+        document.getElementById('result').innerHTML="Axşam qrupudur."
     }
 }
-
 
 
