@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="colculator row gy-5">
+                <div class="col-lg-7 left">
+                    <h3>Kredit kolkulyatoru</h3>
+                    <p class="content">
+                        Kredit Kalkulyatoru ilə müxtəlif kredit məbləğləri, faiz dərəcələri və şərtlər üçün təxmini ödənişlərinizi müəyyənləşdirin.
+                    </p>
+                    <label for="amount">Kredit Məbləği</label><br>
+                    <input type="number" id="amount" placeholder="Məbləğ :"><br>
+                    <label for="percent">Faiz Dərəcəsi</label><br>
+                    <input type="number" id="percent" placeholder="Faiz :"><br>
+                    <label for="time">Kredit Müddəti</label><br>
+                    <input type="number" id="time" placeholder="Ay :">
+                    <button id="btn" class="btn btn-success but">Hesabla</button>
+                </div>
+                <div class="col-lg-5">
+                    <div class="right">
+                        <h2>Təxmini aylıq ödənişiniz</h2>
+                        <p id="monthly">0 AZN</p>
+                        <h5>Ümumi ödənəcək məbləğ</h5>
+                        <p id="total">0 AZN</p>
+                        <h5>Ödənilmiş ümumi faiz
+                        </h5>
+                        <p id="percently">0 AZN</p>
+                        <button class="btn btn-success but">Sifariş et</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>

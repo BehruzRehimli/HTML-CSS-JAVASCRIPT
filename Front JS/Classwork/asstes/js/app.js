@@ -1,25 +1,32 @@
+function calculate(){
+    if(isNaN(document.getElementById('input').value)){
+        alert('Reqem daxil edin!')
+    }
+    else{
+        var result= (document.getElementById('input').value**2)*Math.PI 
+        console.log(result)
+    }
 
-function cem(){
-    var i1=parseFloat(document.getElementById("i1").value);
-    var i2=parseFloat(document.getElementById("i2").value);
-    var result=i1+i2;
-    document.getElementById('result').innerHTML= result;
 }
-function ferq(){
-    var i1=parseFloat(document.getElementById("i1").value);
-    var i2=parseFloat(document.getElementById("i2").value);
-    var result=i1-i2;
-    document.getElementById('result').innerHTML= result;
+var a=0
+function plus(){
+    a++;
+    document.getElementById('result').innerHTML= a
 }
-function hasil(){
-    var i1=parseFloat(document.getElementById("i1").value);
-    var i2=parseFloat(document.getElementById("i2").value);
-    var result=i1*i2;
-    document.getElementById('result').innerHTML= result;
+function minus(){
+    if(a==0){
+    document.getElementById('result').innerHTML= a
+    }
+    else{
+        a--
+        document.getElementById('result').innerHTML= a
+    }
 }
-function bolme(){
-    var i1=parseFloat(document.getElementById("i1").value);
-    var i2=parseFloat(document.getElementById("i2").value);
-    var result=i1/i2;
-    document.getElementById('result').innerHTML= result;
+
+
+document.getElementById('box').onmouseover= function(){
+    var a = Math.floor(Math.random()*100)
+    var b = Math.floor(Math.random()*100)
+    document.getElementById('box').style.right = `${a}%`
+    document.getElementById('box').style.top = `${b}%`
 }

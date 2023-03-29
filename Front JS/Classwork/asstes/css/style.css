@@ -6,3 +6,19 @@ button{
     font-weight: bold;
     border: none;
 }
+.area{
+    width: 90%;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 10px;
+    position: relative;
+}
+#box{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transition: 1s;
+}

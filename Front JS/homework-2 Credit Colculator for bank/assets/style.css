@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Lora;
+    font-style: italic;
+    font-weight: 600;
+    color: #404345;
+    font-size: 18px;
+}
+.colculator{
+    border-radius: 10px;
+    box-shadow: 0 0 0 grey;
+    margin-top: 3rem;    
+}
+.right{
+    background-color: #c8e4ce;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+}
+.left{
+    padding: 1rem 5rem;
+    padding-right: 8rem;
+
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+}
+p{
+    font-size: 18px ;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.content{
+    margin-bottom: 65px;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #949494;
+    padding: 1rem 1rem 1rem 1.5rem;
+    width: 100%;
+}
+input:hover{
+    border-color: green;
+    box-shadow: 0 0 3px 0px green;
+}
+input:focus-visible{
+    border-color: green;
+    box-shadow: 0 0 3px 0px green;
+    outline: none;
+}
+.but{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+#monthly{
+    color: #80015b;
+    font-size: 38px;
+}
+#total,#percently{
+    color: green;
+    font-size: 28px;
+}
