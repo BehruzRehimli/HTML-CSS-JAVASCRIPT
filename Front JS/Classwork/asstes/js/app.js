@@ -1,32 +1,65 @@
-function calculate(){
-    if(isNaN(document.getElementById('input').value)){
-        alert('Reqem daxil edin!')
+let arr=[5,9,6,1,-3,7,8,2,]
+
+function min(arr){
+    if(Array.isArray(arr)){
+        let min = arr[0];
+        for (let index = 1; index < arr.length; index++) {
+            if(arr[index]<min){
+                min=arr[index]
+            }
+        }
+        return min;
+    }
+
+}
+
+
+let str='salminanilla'
+
+function hasSameChar(str) {
+    if (typeof str=='string') {
+        let arr=[];
+        for (let x = 0; x < str.length; x++) {
+            for (let y = x+1; y < str.length; y++) {
+                if (str[x]==str[y] && arr.includes(str[x])==false) {
+                    arr.push(str[x]);
+                }
+            }
+        }
+        return arr;
+    }
+}
+
+let sentence = "lorem"
+
+function howMuchWords(sentence) {
+    if(typeof str== 'string'&& sentence.includes(' ')){
+        let counter=1;
+        for (let index = 0; index < sentence.length; index++) {
+            if(sentence[index]==' '){
+                counter++;
+            }            
+        }
+        return counter;
+    }
+}
+console.log(howMuchWords(sentence));
+
+let palindrome="a"
+function isPalindrome(palindrome){
+    if (typeof palindrome=='string' && palindrome.length>1) {
+        for (let index = 0; index < (palindrome.length/2); index++) {
+            if (palindrome[index]!=palindrome[palindrome.length-index-1]) {
+                alert('Polindrome deyil!')
+                return;
+            }
+        }
+        alert('Polidromdur.')
     }
     else{
-        var result= (document.getElementById('input').value**2)*Math.PI 
-        console.log(result)
-    }
-
+        alert('Parametr olaraq söz ötürülməyib.')
+    }   
 }
-var a=0
-function plus(){
-    a++;
-    document.getElementById('result').innerHTML= a
-}
-function minus(){
-    if(a==0){
-    document.getElementById('result').innerHTML= a
-    }
-    else{
-        a--
-        document.getElementById('result').innerHTML= a
-    }
-}
+isPalindrome(palindrome)
 
 
-document.getElementById('box').onmouseover= function(){
-    var a = Math.floor(Math.random()*100)
-    var b = Math.floor(Math.random()*100)
-    document.getElementById('box').style.right = `${a}%`
-    document.getElementById('box').style.top = `${b}%`
-}
