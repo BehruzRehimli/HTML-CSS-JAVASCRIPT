@@ -54,6 +54,10 @@ b {
   transform: rotate(180deg);
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
 input {
   border: none;
   height: 140px;
