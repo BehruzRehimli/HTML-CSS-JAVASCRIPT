@@ -27,4 +27,18 @@ function ShortName(name){
     }
 }
 
-console.log(ShortName("Behruz Rehimov"));
+
+function zero(number){
+    let input=number+''
+    let counter=0;
+    for(let x of input){
+        if(x==0){
+            console.log(x)
+            counter++;
+        }
+    }
+    return counter;
+}
+console.log(zero(10000));
+
+
