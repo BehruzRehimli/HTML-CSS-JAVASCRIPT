@@ -1,0 +1,88 @@
+i{
+    font-size: 25px;
+}
+body{
+    background-image: url("./images/sky.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+
+}
+.img.first{
+    top: 20%;
+    width: 60%;
+    animation: first 8s linear infinite;
+}
+.second{
+    bottom: 0%;
+    width: 70%;
+    right: -100%;
+    animation: first 8s linear infinite 4s;
+}
+.third{
+    top: -10%;
+    width: 90%;
+    right: -100%;
+    animation: first 13s linear infinite 6s;
+}
+.four{
+    top: -40%;
+    width: 60%;
+    right: -100%;
+    animation: first 8s linear infinite 2s;
+}
+.plane{
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 150px;
+}
+.station{
+    width: 300px;
+    height: 150px;
+    background-color: transparent;
+    border: 5px dashed blue;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.gameOver{
+    position: absolute;
+    font-size: 7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-style: italic;
+    color: #333;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: none;
+}
+.gameOver button{
+    padding: 1rem 2rem;
+    font-size: 25px;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #222;
+    cursor: pointer;
+}
+.gameOver button:hover{
+    color: white;
+    background-color: blue;
+}
+@keyframes first{
+    from{
+        right: -100%;
+    }
+    to{
+        right: 100%;
+    }
+}
