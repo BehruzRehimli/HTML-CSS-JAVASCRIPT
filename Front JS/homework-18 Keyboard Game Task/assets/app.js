@@ -1,8 +1,12 @@
 let pln=document.querySelector(".plane")
 let stat=document.querySelector(".station")
-let pos=stat.getBoundingClientRect();
 let gameOver=document.querySelector(".gameOver");
 let btn=document.querySelector(".btn");
+stat.style.left=`${Math.floor(Math.random()*90)}%`;
+stat.style.top=`${Math.floor(Math.random()*90)}%`;
+let pos=stat.getBoundingClientRect();
+
+
 let x=0;
 let y=0;
 
