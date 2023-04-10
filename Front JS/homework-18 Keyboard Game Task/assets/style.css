@@ -39,6 +39,7 @@ img{
     left: 0px;
     width: 250px;
     height: 150px;
+    transition: .7s;
 }
 .station{
     width: 300px;
